@@ -1,0 +1,281 @@
+body{
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+/******************************** common styling  ********************************/
+.bg-nav, .btn-outline-dark:hover, .btn-default, #testimonials, #cta{
+    background-color: #2f5d62;
+}
+
+.home-title, .font-s, .subscription-heading, .social-icon, .copyright {
+    color:  #2f5d62;
+}
+
+/******************************** home page  ********************************/
+
+/* navbar  */
+.bg-nav{
+    padding: .5rem;
+}
+.navbar-brand{
+    margin-left: 1rem;
+}
+
+
+/* title */
+.home{
+    position: absolute;
+    top:30%;
+    left: 0;
+    right: 0;
+}
+.home-img{
+    width: 100vw;
+    height: 80vh;
+    opacity: .4 ;
+}
+.home-text{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+}
+.home-title{
+    font-family: 'Montserrat', sans-serif;
+    z-index: 12;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+.join-btn{
+    text-decoration: none;
+}
+
+.home-para{
+    text-align: center;
+}
+.btn-default
+{
+    color:#dfeeea;
+    border-color: #dfeeea;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #2F3E48;
+    color:#fff;
+    border-color: #2F3E48;
+}
+
+
+@media (max-width:1100px){
+    .home{
+    position: absolute;
+    top:20%;
+    left: 0;
+    right: 0;
+    }
+
+}
+
+ @media (max-width:850px){
+.home-title{
+    font-weight: 600;
+    font-size: 2.3rem;  
+    }
+}
+@media (max-width:620px){
+    .home-title{
+        font-size: 1.5rem;
+    }
+
+    .home-text{
+        font-size: 1rem;
+    }
+}
+
+/******************************** features ********************************/ 
+#features{
+    background-color: #fff;
+}
+.feature-title{
+    text-align: center;
+}
+.feature-para{
+    text-align: center;
+    padding: 0 2rem;
+    color: #808080; 
+}
+.feature-col{
+    padding: 2rem;
+}
+.feature-row{
+    padding: 5rem;
+    margin-top: 5rem;
+}
+.f-cust{
+    margin-top: -4rem;
+}
+.icos{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.cust{
+    margin-top:20px;
+}
+.font-s:hover{
+    color:#5e8b7e
+}
+
+@media (max-width:500px){
+    .feature-para {
+        padding: 0 .6rem;
+    }
+    .cust{
+        margin-top:0;
+    }
+    .f-cust{
+        margin-top: -9rem;
+    }
+}
+
+/******************************** Testimonials ********************************/
+#testimonials{
+    /* background-color: #2F3E48; */
+    color: #dfeeea;
+    padding: 5rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+.testi-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #dfeeea;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.testi-img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 4.5rem;
+    margin: 0.6rem;
+}
+
+.testi-para{
+    font-size: 1.5rem;
+}
+
+@media (max-width:500px){
+    #testimonials{
+        padding: 5rem 2rem;
+        margin: 3rem 0;
+    }
+    .testi-para{
+        font-size: 1.3rem;
+        padding: 1rem 2rem;
+    }
+    .testi-img{
+    
+        width: 3rem;
+        height: 3rem;
+
+    }
+}
+
+/******************************** Pricing ********************************/
+
+#pricing{
+    padding: 6rem;
+}
+
+.pricing-col{
+    padding: 1rem;
+    text-align: center;
+}
+
+.subscription-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+.subscription-para{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width:500px){
+    .subscription-heading{
+        font-size: 2rem;
+    }
+    .subscription-para{
+        text-align: center;
+        padding-bottom: 3rem;
+        font-size: 1rem;
+    }
+    #pricing{
+        padding: 1rem;
+    }
+}
+
+/****************************** call to action  *******************************/ 
+#cta{
+    /* background-color: #2F3E48; */
+    color: #dfeeea;
+    text-align: center;
+    padding: 5rem;
+
+}
+.contact-form{
+    text-align: left;
+    width: 40%;
+    margin:auto;
+}
+.contact-para{
+    width: 50%;
+    margin: auto;
+    font-size: .8rem;
+    padding-bottom: 3rem;
+    
+}
+.contact-title{
+    font-size: 4rem;
+}
+
+@media (max-width:700px){
+    #cta{
+        padding: 2rem 0;
+    }
+    .contact-form{
+        width: 70%;
+    }
+  
+    .contact-title{
+        font-size: 2.8rem;
+    }
+}
+
+/****************************** footer  *******************************/ 
+
+.social-icon{
+    font-size: 1.3rem;
+    padding: .4rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+#footer{
+    text-align: center;
+    padding: 4rem;
+}
+.copyright{
+    padding-top: 1rem;
+    margin: auto;
+    font-size: 1rem;
+    
+}
