@@ -27,6 +27,7 @@ body{
 .home{
     position: absolute;
     top:30%;
+    padding: 1rem;
     left: 0;
     right: 0;
  
@@ -53,6 +54,7 @@ body{
 }
 .join-btn{
     text-decoration: none;
+    text-align: center;
 }
 
 .home-para{
@@ -95,6 +97,12 @@ body{
     .home-text{
         font-size: 1.3rem;
     }
+    .home{
+        position: absolute;
+        top:20%;
+        left: 0;
+        right: 0;
+        }
 }
 
 /******************************** features ********************************/ 
